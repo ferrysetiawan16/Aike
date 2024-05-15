@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F509D1FD2BF4B3CC00F19E9D /* AikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F509D1FC2BF4B3CC00F19E9D /* AikeApp.swift */; };
+		F509D1FF2BF4B3CC00F19E9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F509D1FE2BF4B3CC00F19E9D /* ContentView.swift */; };
+		F509D2012BF4B3CD00F19E9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F509D2002BF4B3CD00F19E9D /* Assets.xcassets */; };
+		F509D2042BF4B3CD00F19E9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F509D2032BF4B3CD00F19E9D /* Preview Assets.xcassets */; };
+		F509D20E2BF4B3CD00F19E9D /* AikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F509D20D2BF4B3CD00F19E9D /* AikeTests.swift */; };
+		F509D2182BF4B3CD00F19E9D /* AikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F509D2172BF4B3CD00F19E9D /* AikeUITests.swift */; };
+		F509D21A2BF4B3CD00F19E9D /* AikeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F509D2192BF4B3CD00F19E9D /* AikeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F509D20A2BF4B3CD00F19E9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F509D1F12BF4B3CC00F19E9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F509D1F82BF4B3CC00F19E9D;
+			remoteInfo = Aike;
+		};
+		F509D2142BF4B3CD00F19E9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F509D1F12BF4B3CC00F19E9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F509D1F82BF4B3CC00F19E9D;
+			remoteInfo = Aike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F509D1F92BF4B3CC00F19E9D /* Aike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F509D1FC2BF4B3CC00F19E9D /* AikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AikeApp.swift; sourceTree = "<group>"; };
+		F509D1FE2BF4B3CC00F19E9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F509D2002BF4B3CD00F19E9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F509D2032BF4B3CD00F19E9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F509D2092BF4B3CD00F19E9D /* AikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F509D20D2BF4B3CD00F19E9D /* AikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AikeTests.swift; sourceTree = "<group>"; };
+		F509D2132BF4B3CD00F19E9D /* AikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F509D2172BF4B3CD00F19E9D /* AikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AikeUITests.swift; sourceTree = "<group>"; };
+		F509D2192BF4B3CD00F19E9D /* AikeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AikeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F509D1F62BF4B3CC00F19E9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F509D2062BF4B3CD00F19E9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F509D2102BF4B3CD00F19E9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F509D1F02BF4B3CC00F19E9D = {
+			isa = PBXGroup;
+			children = (
+				F509D1FB2BF4B3CC00F19E9D /* Aike */,
+				F509D20C2BF4B3CD00F19E9D /* AikeTests */,
+				F509D2162BF4B3CD00F19E9D /* AikeUITests */,
+				F509D1FA2BF4B3CC00F19E9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F509D1FA2BF4B3CC00F19E9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F509D1F92BF4B3CC00F19E9D /* Aike.app */,
+				F509D2092BF4B3CD00F19E9D /* AikeTests.xctest */,
+				F509D2132BF4B3CD00F19E9D /* AikeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F509D1FB2BF4B3CC00F19E9D /* Aike */ = {
+			isa = PBXGroup;
+			children = (
+				F509D1FC2BF4B3CC00F19E9D /* AikeApp.swift */,
+				F509D1FE2BF4B3CC00F19E9D /* ContentView.swift */,
+				F509D2002BF4B3CD00F19E9D /* Assets.xcassets */,
+				F509D2022BF4B3CD00F19E9D /* Preview Content */,
+			);
+			path = Aike;
+			sourceTree = "<group>";
+		};
+		F509D2022BF4B3CD00F19E9D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F509D2032BF4B3CD00F19E9D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F509D20C2BF4B3CD00F19E9D /* AikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F509D20D2BF4B3CD00F19E9D /* AikeTests.swift */,
+			);
+			path = AikeTests;
+			sourceTree = "<group>";
+		};
+		F509D2162BF4B3CD00F19E9D /* AikeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F509D2172BF4B3CD00F19E9D /* AikeUITests.swift */,
+				F509D2192BF4B3CD00F19E9D /* AikeUITestsLaunchTests.swift */,
+			);
+			path = AikeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F509D1F82BF4B3CC00F19E9D /* Aike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F509D21D2BF4B3CD00F19E9D /* Build configuration list for PBXNativeTarget "Aike" */;
+			buildPhases = (
+				F509D1F52BF4B3CC00F19E9D /* Sources */,
+				F509D1F62BF4B3CC00F19E9D /* Frameworks */,
+				F509D1F72BF4B3CC00F19E9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aike;
+			productName = Aike;
+			productReference = F509D1F92BF4B3CC00F19E9D /* Aike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F509D2082BF4B3CD00F19E9D /* AikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F509D2202BF4B3CD00F19E9D /* Build configuration list for PBXNativeTarget "AikeTests" */;
+			buildPhases = (
+				F509D2052BF4B3CD00F19E9D /* Sources */,
+				F509D2062BF4B3CD00F19E9D /* Frameworks */,
+				F509D2072BF4B3CD00F19E9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F509D20B2BF4B3CD00F19E9D /* PBXTargetDependency */,
+			);
+			name = AikeTests;
+			productName = AikeTests;
+			productReference = F509D2092BF4B3CD00F19E9D /* AikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F509D2122BF4B3CD00F19E9D /* AikeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F509D2232BF4B3CD00F19E9D /* Build configuration list for PBXNativeTarget "AikeUITests" */;
+			buildPhases = (
+				F509D20F2BF4B3CD00F19E9D /* Sources */,
+				F509D2102BF4B3CD00F19E9D /* Frameworks */,
+				F509D2112BF4B3CD00F19E9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F509D2152BF4B3CD00F19E9D /* PBXTargetDependency */,
+			);
+			name = AikeUITests;
+			productName = AikeUITests;
+			productReference = F509D2132BF4B3CD00F19E9D /* AikeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F509D1F12BF4B3CC00F19E9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F509D1F82BF4B3CC00F19E9D = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F509D2082BF4B3CD00F19E9D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F509D1F82BF4B3CC00F19E9D;
+					};
+					F509D2122BF4B3CD00F19E9D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F509D1F82BF4B3CC00F19E9D;
+					};
+				};
+			};
+			buildConfigurationList = F509D1F42BF4B3CC00F19E9D /* Build configuration list for PBXProject "Aike" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F509D1F02BF4B3CC00F19E9D;
+			productRefGroup = F509D1FA2BF4B3CC00F19E9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F509D1F82BF4B3CC00F19E9D /* Aike */,
+				F509D2082BF4B3CD00F19E9D /* AikeTests */,
+				F509D2122BF4B3CD00F19E9D /* AikeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F509D1F72BF4B3CC00F19E9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F509D2042BF4B3CD00F19E9D /* Preview Assets.xcassets in Resources */,
+				F509D2012BF4B3CD00F19E9D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F509D2072BF4B3CD00F19E9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F509D2112BF4B3CD00F19E9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F509D1F52BF4B3CC00F19E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F509D1FF2BF4B3CC00F19E9D /* ContentView.swift in Sources */,
+				F509D1FD2BF4B3CC00F19E9D /* AikeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F509D2052BF4B3CD00F19E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F509D20E2BF4B3CD00F19E9D /* AikeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F509D20F2BF4B3CD00F19E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F509D21A2BF4B3CD00F19E9D /* AikeUITestsLaunchTests.swift in Sources */,
+				F509D2182BF4B3CD00F19E9D /* AikeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F509D20B2BF4B3CD00F19E9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F509D1F82BF4B3CC00F19E9D /* Aike */;
+			targetProxy = F509D20A2BF4B3CD00F19E9D /* PBXContainerItemProxy */;
+		};
+		F509D2152BF4B3CD00F19E9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F509D1F82BF4B3CC00F19E9D /* Aike */;
+			targetProxy = F509D2142BF4B3CD00F19E9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F509D21B2BF4B3CD00F19E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F509D21C2BF4B3CD00F19E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F509D21E2BF4B3CD00F19E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aike/Preview Content\"";
+				DEVELOPMENT_TEAM = 8QLJUY825K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FerrySetiawan.Aike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F509D21F2BF4B3CD00F19E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aike/Preview Content\"";
+				DEVELOPMENT_TEAM = 8QLJUY825K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FerrySetiawan.Aike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F509D2212BF4B3CD00F19E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QLJUY825K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FerrySetiawan.AikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aike.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aike";
+			};
+			name = Debug;
+		};
+		F509D2222BF4B3CD00F19E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QLJUY825K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FerrySetiawan.AikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aike.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aike";
+			};
+			name = Release;
+		};
+		F509D2242BF4B3CD00F19E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QLJUY825K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FerrySetiawan.AikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aike;
+			};
+			name = Debug;
+		};
+		F509D2252BF4B3CD00F19E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8QLJUY825K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FerrySetiawan.AikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aike;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F509D1F42BF4B3CC00F19E9D /* Build configuration list for PBXProject "Aike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F509D21B2BF4B3CD00F19E9D /* Debug */,
+				F509D21C2BF4B3CD00F19E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F509D21D2BF4B3CD00F19E9D /* Build configuration list for PBXNativeTarget "Aike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F509D21E2BF4B3CD00F19E9D /* Debug */,
+				F509D21F2BF4B3CD00F19E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F509D2202BF4B3CD00F19E9D /* Build configuration list for PBXNativeTarget "AikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F509D2212BF4B3CD00F19E9D /* Debug */,
+				F509D2222BF4B3CD00F19E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F509D2232BF4B3CD00F19E9D /* Build configuration list for PBXNativeTarget "AikeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F509D2242BF4B3CD00F19E9D /* Debug */,
+				F509D2252BF4B3CD00F19E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F509D1F12BF4B3CC00F19E9D /* Project object */;
+}
