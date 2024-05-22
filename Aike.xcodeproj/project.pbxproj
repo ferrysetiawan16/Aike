@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5036B1C2BFB8FE200C2FA22 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5036B1B2BFB8FE200C2FA22 /* HomeView.swift */; };
+		F5036B1E2BFB900C00C2FA22 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5036B1D2BFB900C00C2FA22 /* MenuView.swift */; };
+		F5036B212BFBA31A00C2FA22 /* chair1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F5036B202BFBA31A00C2FA22 /* chair1.usdz */; };
+		F5036B242BFC81DE00C2FA22 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = F5036B232BFC81DE00C2FA22 /* FocusEntity */; };
+		F5036B262BFCA91900C2FA22 /* AddLottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5036B252BFCA91900C2FA22 /* AddLottie.swift */; };
 		F509D1FD2BF4B3CC00F19E9D /* AikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F509D1FC2BF4B3CC00F19E9D /* AikeApp.swift */; };
 		F509D1FF2BF4B3CC00F19E9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F509D1FE2BF4B3CC00F19E9D /* ContentView.swift */; };
 		F509D2012BF4B3CD00F19E9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F509D2002BF4B3CD00F19E9D /* Assets.xcassets */; };
@@ -14,6 +19,35 @@
 		F509D20E2BF4B3CD00F19E9D /* AikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F509D20D2BF4B3CD00F19E9D /* AikeTests.swift */; };
 		F509D2182BF4B3CD00F19E9D /* AikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F509D2172BF4B3CD00F19E9D /* AikeUITests.swift */; };
 		F509D21A2BF4B3CD00F19E9D /* AikeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F509D2192BF4B3CD00F19E9D /* AikeUITestsLaunchTests.swift */; };
+		F520729A2C002661005FCBE7 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52072992C002661005FCBE7 /* CustomColor.swift */; };
+		F520729C2C006BBC005FCBE7 /* chair2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F520729B2C006BBC005FCBE7 /* chair2.usdz */; };
+		F520729E2C006BC2005FCBE7 /* chair3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F520729D2C006BC2005FCBE7 /* chair3.usdz */; };
+		F52072A22C0078A0005FCBE7 /* chair4.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072A12C0078A0005FCBE7 /* chair4.usdz */; };
+		F52072A62C01D962005FCBE7 /* table3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072A52C01D962005FCBE7 /* table3.usdz */; };
+		F52072A82C01DC6E005FCBE7 /* table1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072A72C01DC6E005FCBE7 /* table1.usdz */; };
+		F52072AE2C01E0A1005FCBE7 /* table2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072AD2C01E0A1005FCBE7 /* table2.usdz */; };
+		F52072B42C01E92B005FCBE7 /* table5.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072B32C01E92B005FCBE7 /* table5.usdz */; };
+		F52072B62C01EB8E005FCBE7 /* table4.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072B52C01EB8E005FCBE7 /* table4.usdz */; };
+		F52072B82C01EE38005FCBE7 /* drawer1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072B72C01EE38005FCBE7 /* drawer1.usdz */; };
+		F52072BA2C01F261005FCBE7 /* drawer3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072B92C01F261005FCBE7 /* drawer3.usdz */; };
+		F52072BC2C01F26F005FCBE7 /* drawer4.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072BB2C01F26F005FCBE7 /* drawer4.usdz */; };
+		F52072C02C01F727005FCBE7 /* drawer2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072BF2C01F727005FCBE7 /* drawer2.usdz */; };
+		F52072C22C01F809005FCBE7 /* chair5.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072C12C01F809005FCBE7 /* chair5.usdz */; };
+		F52072C62C0208ED005FCBE7 /* drawer5.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072C52C0208EC005FCBE7 /* drawer5.usdz */; };
+		F52072CA2C0221EB005FCBE7 /* wardrobe2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072C92C0221EB005FCBE7 /* wardrobe2.usdz */; };
+		F52072CC2C0221F6005FCBE7 /* wardrobe3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072CB2C0221F6005FCBE7 /* wardrobe3.usdz */; };
+		F52072D02C02229D005FCBE7 /* wardrobe5.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072CF2C02229D005FCBE7 /* wardrobe5.usdz */; };
+		F52072D22C0222FB005FCBE7 /* wardrobe1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072D12C0222FB005FCBE7 /* wardrobe1.usdz */; };
+		F52072D42C022360005FCBE7 /* wardrobe4.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072D32C022360005FCBE7 /* wardrobe4.usdz */; };
+		F52072D62C022A5B005FCBE7 /* wall1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072D52C022A5B005FCBE7 /* wall1.usdz */; };
+		F52072D82C022F34005FCBE7 /* wall3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072D72C022F34005FCBE7 /* wall3.usdz */; };
+		F52072DE2C023EE7005FCBE7 /* wall5.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072DD2C023EE7005FCBE7 /* wall5.usdz */; };
+		F52072E02C02421A005FCBE7 /* wall2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072DF2C02421A005FCBE7 /* wall2.usdz */; };
+		F52072E22C0242CB005FCBE7 /* wall4.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072E12C0242CB005FCBE7 /* wall4.usdz */; };
+		F52072E42C036310005FCBE7 /* Splash.json in Resources */ = {isa = PBXBuildFile; fileRef = F52072E32C036310005FCBE7 /* Splash.json */; };
+		F52072E72C036484005FCBE7 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F52072E62C036484005FCBE7 /* Lottie */; };
+		F52072E92C0365C5005FCBE7 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52072E82C0365C5005FCBE7 /* SplashScreenView.swift */; };
+		F52072EB2C039FD8005FCBE7 /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52072EA2C039FD8005FCBE7 /* CatalogView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +68,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F5036B1B2BFB8FE200C2FA22 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F5036B1D2BFB900C00C2FA22 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		F5036B1F2BFBA0E400C2FA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F5036B202BFBA31A00C2FA22 /* chair1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair1.usdz; sourceTree = "<group>"; };
+		F5036B252BFCA91900C2FA22 /* AddLottie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLottie.swift; sourceTree = "<group>"; };
 		F509D1F92BF4B3CC00F19E9D /* Aike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F509D1FC2BF4B3CC00F19E9D /* AikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AikeApp.swift; sourceTree = "<group>"; };
 		F509D1FE2BF4B3CC00F19E9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +83,34 @@
 		F509D2132BF4B3CD00F19E9D /* AikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F509D2172BF4B3CD00F19E9D /* AikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AikeUITests.swift; sourceTree = "<group>"; };
 		F509D2192BF4B3CD00F19E9D /* AikeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AikeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F52072992C002661005FCBE7 /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		F520729B2C006BBC005FCBE7 /* chair2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair2.usdz; sourceTree = "<group>"; };
+		F520729D2C006BC2005FCBE7 /* chair3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair3.usdz; sourceTree = "<group>"; };
+		F52072A12C0078A0005FCBE7 /* chair4.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair4.usdz; sourceTree = "<group>"; };
+		F52072A52C01D962005FCBE7 /* table3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = table3.usdz; sourceTree = "<group>"; };
+		F52072A72C01DC6E005FCBE7 /* table1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = table1.usdz; sourceTree = "<group>"; };
+		F52072AD2C01E0A1005FCBE7 /* table2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = table2.usdz; path = ../../Nano2/Furniture/table2.usdz; sourceTree = "<group>"; };
+		F52072B32C01E92B005FCBE7 /* table5.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = table5.usdz; sourceTree = "<group>"; };
+		F52072B52C01EB8E005FCBE7 /* table4.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = table4.usdz; sourceTree = "<group>"; };
+		F52072B72C01EE38005FCBE7 /* drawer1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = drawer1.usdz; sourceTree = "<group>"; };
+		F52072B92C01F261005FCBE7 /* drawer3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = drawer3.usdz; sourceTree = "<group>"; };
+		F52072BB2C01F26F005FCBE7 /* drawer4.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = drawer4.usdz; sourceTree = "<group>"; };
+		F52072BF2C01F727005FCBE7 /* drawer2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = drawer2.usdz; sourceTree = "<group>"; };
+		F52072C12C01F809005FCBE7 /* chair5.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair5.usdz; sourceTree = "<group>"; };
+		F52072C52C0208EC005FCBE7 /* drawer5.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = drawer5.usdz; sourceTree = "<group>"; };
+		F52072C92C0221EB005FCBE7 /* wardrobe2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wardrobe2.usdz; sourceTree = "<group>"; };
+		F52072CB2C0221F6005FCBE7 /* wardrobe3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wardrobe3.usdz; sourceTree = "<group>"; };
+		F52072CF2C02229D005FCBE7 /* wardrobe5.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wardrobe5.usdz; sourceTree = "<group>"; };
+		F52072D12C0222FB005FCBE7 /* wardrobe1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = wardrobe1.usdz; path = ../../Nano2/Furniture/wardrobe1.usdz; sourceTree = "<group>"; };
+		F52072D32C022360005FCBE7 /* wardrobe4.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = wardrobe4.usdz; path = ../../Nano2/Furniture/wardrobe4.usdz; sourceTree = "<group>"; };
+		F52072D52C022A5B005FCBE7 /* wall1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wall1.usdz; sourceTree = "<group>"; };
+		F52072D72C022F34005FCBE7 /* wall3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wall3.usdz; sourceTree = "<group>"; };
+		F52072DD2C023EE7005FCBE7 /* wall5.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wall5.usdz; sourceTree = "<group>"; };
+		F52072DF2C02421A005FCBE7 /* wall2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wall2.usdz; sourceTree = "<group>"; };
+		F52072E12C0242CB005FCBE7 /* wall4.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wall4.usdz; sourceTree = "<group>"; };
+		F52072E32C036310005FCBE7 /* Splash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Splash.json; sourceTree = "<group>"; };
+		F52072E82C0365C5005FCBE7 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		F52072EA2C039FD8005FCBE7 /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +118,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5036B242BFC81DE00C2FA22 /* FocusEntity in Frameworks */,
+				F52072E72C036484005FCBE7 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +163,41 @@
 		F509D1FB2BF4B3CC00F19E9D /* Aike */ = {
 			isa = PBXGroup;
 			children = (
+				F5036B1F2BFBA0E400C2FA22 /* Info.plist */,
 				F509D1FC2BF4B3CC00F19E9D /* AikeApp.swift */,
+				F5036B252BFCA91900C2FA22 /* AddLottie.swift */,
+				F52072E82C0365C5005FCBE7 /* SplashScreenView.swift */,
+				F5036B1B2BFB8FE200C2FA22 /* HomeView.swift */,
+				F5036B1D2BFB900C00C2FA22 /* MenuView.swift */,
 				F509D1FE2BF4B3CC00F19E9D /* ContentView.swift */,
+				F52072EA2C039FD8005FCBE7 /* CatalogView.swift */,
+				F52072992C002661005FCBE7 /* CustomColor.swift */,
+				F52072E32C036310005FCBE7 /* Splash.json */,
+				F52072DD2C023EE7005FCBE7 /* wall5.usdz */,
+				F52072E12C0242CB005FCBE7 /* wall4.usdz */,
+				F52072D72C022F34005FCBE7 /* wall3.usdz */,
+				F52072DF2C02421A005FCBE7 /* wall2.usdz */,
+				F52072D52C022A5B005FCBE7 /* wall1.usdz */,
+				F52072CF2C02229D005FCBE7 /* wardrobe5.usdz */,
+				F52072D32C022360005FCBE7 /* wardrobe4.usdz */,
+				F52072CB2C0221F6005FCBE7 /* wardrobe3.usdz */,
+				F52072C92C0221EB005FCBE7 /* wardrobe2.usdz */,
+				F52072D12C0222FB005FCBE7 /* wardrobe1.usdz */,
+				F52072B72C01EE38005FCBE7 /* drawer1.usdz */,
+				F52072BF2C01F727005FCBE7 /* drawer2.usdz */,
+				F52072B92C01F261005FCBE7 /* drawer3.usdz */,
+				F52072BB2C01F26F005FCBE7 /* drawer4.usdz */,
+				F52072C52C0208EC005FCBE7 /* drawer5.usdz */,
+				F52072B32C01E92B005FCBE7 /* table5.usdz */,
+				F52072B52C01EB8E005FCBE7 /* table4.usdz */,
+				F52072A52C01D962005FCBE7 /* table3.usdz */,
+				F52072AD2C01E0A1005FCBE7 /* table2.usdz */,
+				F52072A72C01DC6E005FCBE7 /* table1.usdz */,
+				F52072C12C01F809005FCBE7 /* chair5.usdz */,
+				F52072A12C0078A0005FCBE7 /* chair4.usdz */,
+				F520729D2C006BC2005FCBE7 /* chair3.usdz */,
+				F520729B2C006BBC005FCBE7 /* chair2.usdz */,
+				F5036B202BFBA31A00C2FA22 /* chair1.usdz */,
 				F509D2002BF4B3CD00F19E9D /* Assets.xcassets */,
 				F509D2022BF4B3CD00F19E9D /* Preview Content */,
 			);
@@ -143,6 +245,10 @@
 			dependencies = (
 			);
 			name = Aike;
+			packageProductDependencies = (
+				F5036B232BFC81DE00C2FA22 /* FocusEntity */,
+				F52072E62C036484005FCBE7 /* Lottie */,
+			);
 			productName = Aike;
 			productReference = F509D1F92BF4B3CC00F19E9D /* Aike.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +321,10 @@
 				Base,
 			);
 			mainGroup = F509D1F02BF4B3CC00F19E9D;
+			packageReferences = (
+				F5036B222BFC81CB00C2FA22 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+				F52072E52C036484005FCBE7 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = F509D1FA2BF4B3CC00F19E9D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +341,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F520729C2C006BBC005FCBE7 /* chair2.usdz in Resources */,
 				F509D2042BF4B3CD00F19E9D /* Preview Assets.xcassets in Resources */,
+				F52072D42C022360005FCBE7 /* wardrobe4.usdz in Resources */,
+				F52072DE2C023EE7005FCBE7 /* wall5.usdz in Resources */,
+				F52072A82C01DC6E005FCBE7 /* table1.usdz in Resources */,
+				F52072B42C01E92B005FCBE7 /* table5.usdz in Resources */,
+				F52072BC2C01F26F005FCBE7 /* drawer4.usdz in Resources */,
+				F52072D22C0222FB005FCBE7 /* wardrobe1.usdz in Resources */,
+				F52072CC2C0221F6005FCBE7 /* wardrobe3.usdz in Resources */,
+				F52072C02C01F727005FCBE7 /* drawer2.usdz in Resources */,
+				F52072A62C01D962005FCBE7 /* table3.usdz in Resources */,
+				F52072D82C022F34005FCBE7 /* wall3.usdz in Resources */,
 				F509D2012BF4B3CD00F19E9D /* Assets.xcassets in Resources */,
+				F52072D62C022A5B005FCBE7 /* wall1.usdz in Resources */,
+				F52072B82C01EE38005FCBE7 /* drawer1.usdz in Resources */,
+				F52072CA2C0221EB005FCBE7 /* wardrobe2.usdz in Resources */,
+				F52072B62C01EB8E005FCBE7 /* table4.usdz in Resources */,
+				F52072C22C01F809005FCBE7 /* chair5.usdz in Resources */,
+				F52072E42C036310005FCBE7 /* Splash.json in Resources */,
+				F5036B212BFBA31A00C2FA22 /* chair1.usdz in Resources */,
+				F520729E2C006BC2005FCBE7 /* chair3.usdz in Resources */,
+				F52072C62C0208ED005FCBE7 /* drawer5.usdz in Resources */,
+				F52072A22C0078A0005FCBE7 /* chair4.usdz in Resources */,
+				F52072E02C02421A005FCBE7 /* wall2.usdz in Resources */,
+				F52072E22C0242CB005FCBE7 /* wall4.usdz in Resources */,
+				F52072D02C02229D005FCBE7 /* wardrobe5.usdz in Resources */,
+				F52072BA2C01F261005FCBE7 /* drawer3.usdz in Resources */,
+				F52072AE2C01E0A1005FCBE7 /* table2.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +393,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F52072E92C0365C5005FCBE7 /* SplashScreenView.swift in Sources */,
+				F5036B262BFCA91900C2FA22 /* AddLottie.swift in Sources */,
+				F52072EB2C039FD8005FCBE7 /* CatalogView.swift in Sources */,
+				F5036B1C2BFB8FE200C2FA22 /* HomeView.swift in Sources */,
+				F520729A2C002661005FCBE7 /* CustomColor.swift in Sources */,
+				F5036B1E2BFB900C00C2FA22 /* MenuView.swift in Sources */,
 				F509D1FF2BF4B3CC00F19E9D /* ContentView.swift in Sources */,
 				F509D1FD2BF4B3CC00F19E9D /* AikeApp.swift in Sources */,
 			);
@@ -425,11 +567,13 @@
 				DEVELOPMENT_TEAM = 8QLJUY825K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Aike/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires camera access to function properly";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +598,13 @@
 				DEVELOPMENT_TEAM = 8QLJUY825K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Aike/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires camera access to function properly";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -588,6 +734,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5036B222BFC81CB00C2FA22 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+		F52072E52C036484005FCBE7 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5036B232BFC81DE00C2FA22 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5036B222BFC81CB00C2FA22 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+		F52072E62C036484005FCBE7 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F52072E52C036484005FCBE7 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F509D1F12BF4B3CC00F19E9D /* Project object */;
 }
