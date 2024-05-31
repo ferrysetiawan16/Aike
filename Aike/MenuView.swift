@@ -17,7 +17,6 @@ struct MenuPage: View {
     @State private var selectedFilter: String = "All"
     @State private var selectedModel: String = ""
     @State private var showSearch: Bool = false
-    
     @State private var searchText: String = ""
     
     let chairItems: [Furniture] = [
@@ -217,7 +216,7 @@ struct FurnitureSection: View {
                     ForEach(filteredItems) { item in
                         NavigationLink(destination: ContentView(furnitureName: item.selectedModel, furnitureScale: item.scale, isWallDecoration: item.isWallDecoration, category: item.category)) {
                             FurnitureCardView(furniture: item)
-                                .frame(width: 250, height: 360)
+                                .frame(width: 250, height: 430)
                                 .padding(.horizontal, 12)
                         }
                     }
@@ -229,8 +228,26 @@ struct FurnitureSection: View {
     }
 }
 
+struct ModalView: View {
+    @Environment(\.presentationMode) var presentationMode
+    
+    var body: some View {
+        
+        Text("Add to cart")
+            .foregroundStyle(Color.black)
+        
+        Button(action: {
+            print("dismisses form")
+            self.presentationMode.wrappedValue.dismiss()
+        }) {
+            Text("Dismiss")
+        }.padding(.bottom, 50)
+    }
+}
+
 struct FurnitureCardView: View {
     var furniture: Furniture
+    @State private var showModal: Bool = false
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -257,6 +274,36 @@ struct FurnitureCardView: View {
                 .font(.system(size: 20))
                 .foregroundColor(Color.init(hex: 0x43494D))
                 .padding(.top, 12)
+            
+            Button(action: {
+                    print("Button Pushed")
+                    self.showModal = true
+                }) {
+                    HStack (alignment: .center, spacing: 16){
+                        
+                        Text("Buy Now")
+                            .foregroundColor(.white)
+                            .fontWeight(.regular)
+                            .padding(.vertical, 12)
+                            .padding(.horizontal, 36)
+                            .background(Color.init(hex:0x43494D))
+                            .cornerRadius(32)
+                            .shadow(radius: 2)
+                            .padding(.top, 8)
+                        
+                        Image(systemName: "cart.fill")
+                            .foregroundColor(Color.init(hex:0x43494D))
+                            .fontWeight(.regular)
+                            .padding(.vertical, 12)
+                            .padding(.horizontal, 16)
+                            .background(Color.white)
+                            .cornerRadius(32)
+                            .shadow(radius: 2)
+                            .padding(.top, 8)
+                    }
+                }.sheet(isPresented: self.$showModal) {
+                     ModalView()
+                    }
         }
         .padding()
         .background(Color.white)

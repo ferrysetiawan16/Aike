@@ -25,7 +25,6 @@
 		F52072A22C0078A0005FCBE7 /* chair4.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072A12C0078A0005FCBE7 /* chair4.usdz */; };
 		F52072A62C01D962005FCBE7 /* table3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072A52C01D962005FCBE7 /* table3.usdz */; };
 		F52072A82C01DC6E005FCBE7 /* table1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072A72C01DC6E005FCBE7 /* table1.usdz */; };
-		F52072AE2C01E0A1005FCBE7 /* table2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072AD2C01E0A1005FCBE7 /* table2.usdz */; };
 		F52072B42C01E92B005FCBE7 /* table5.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072B32C01E92B005FCBE7 /* table5.usdz */; };
 		F52072B62C01EB8E005FCBE7 /* table4.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072B52C01EB8E005FCBE7 /* table4.usdz */; };
 		F52072B82C01EE38005FCBE7 /* drawer1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072B72C01EE38005FCBE7 /* drawer1.usdz */; };
@@ -37,8 +36,6 @@
 		F52072CA2C0221EB005FCBE7 /* wardrobe2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072C92C0221EB005FCBE7 /* wardrobe2.usdz */; };
 		F52072CC2C0221F6005FCBE7 /* wardrobe3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072CB2C0221F6005FCBE7 /* wardrobe3.usdz */; };
 		F52072D02C02229D005FCBE7 /* wardrobe5.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072CF2C02229D005FCBE7 /* wardrobe5.usdz */; };
-		F52072D22C0222FB005FCBE7 /* wardrobe1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072D12C0222FB005FCBE7 /* wardrobe1.usdz */; };
-		F52072D42C022360005FCBE7 /* wardrobe4.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072D32C022360005FCBE7 /* wardrobe4.usdz */; };
 		F52072D62C022A5B005FCBE7 /* wall1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072D52C022A5B005FCBE7 /* wall1.usdz */; };
 		F52072D82C022F34005FCBE7 /* wall3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072D72C022F34005FCBE7 /* wall3.usdz */; };
 		F52072DE2C023EE7005FCBE7 /* wall5.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F52072DD2C023EE7005FCBE7 /* wall5.usdz */; };
@@ -89,7 +86,6 @@
 		F52072A12C0078A0005FCBE7 /* chair4.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair4.usdz; sourceTree = "<group>"; };
 		F52072A52C01D962005FCBE7 /* table3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = table3.usdz; sourceTree = "<group>"; };
 		F52072A72C01DC6E005FCBE7 /* table1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = table1.usdz; sourceTree = "<group>"; };
-		F52072AD2C01E0A1005FCBE7 /* table2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = table2.usdz; path = ../../Nano2/Furniture/table2.usdz; sourceTree = "<group>"; };
 		F52072B32C01E92B005FCBE7 /* table5.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = table5.usdz; sourceTree = "<group>"; };
 		F52072B52C01EB8E005FCBE7 /* table4.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = table4.usdz; sourceTree = "<group>"; };
 		F52072B72C01EE38005FCBE7 /* drawer1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = drawer1.usdz; sourceTree = "<group>"; };
@@ -101,8 +97,6 @@
 		F52072C92C0221EB005FCBE7 /* wardrobe2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wardrobe2.usdz; sourceTree = "<group>"; };
 		F52072CB2C0221F6005FCBE7 /* wardrobe3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wardrobe3.usdz; sourceTree = "<group>"; };
 		F52072CF2C02229D005FCBE7 /* wardrobe5.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wardrobe5.usdz; sourceTree = "<group>"; };
-		F52072D12C0222FB005FCBE7 /* wardrobe1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = wardrobe1.usdz; path = ../../Nano2/Furniture/wardrobe1.usdz; sourceTree = "<group>"; };
-		F52072D32C022360005FCBE7 /* wardrobe4.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = wardrobe4.usdz; path = ../../Nano2/Furniture/wardrobe4.usdz; sourceTree = "<group>"; };
 		F52072D52C022A5B005FCBE7 /* wall1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wall1.usdz; sourceTree = "<group>"; };
 		F52072D72C022F34005FCBE7 /* wall3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wall3.usdz; sourceTree = "<group>"; };
 		F52072DD2C023EE7005FCBE7 /* wall5.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wall5.usdz; sourceTree = "<group>"; };
@@ -111,6 +105,9 @@
 		F52072E32C036310005FCBE7 /* Splash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Splash.json; sourceTree = "<group>"; };
 		F52072E82C0365C5005FCBE7 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		F52072EA2C039FD8005FCBE7 /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
+		F52072ED2C070CAE005FCBE7 /* wardrobe4.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wardrobe4.usdz; sourceTree = "<group>"; };
+		F52072EE2C070CAF005FCBE7 /* wardrobe1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wardrobe1.usdz; sourceTree = "<group>"; };
+		F52072EF2C070CAF005FCBE7 /* table2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = table2.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,32 +170,8 @@
 				F52072EA2C039FD8005FCBE7 /* CatalogView.swift */,
 				F52072992C002661005FCBE7 /* CustomColor.swift */,
 				F52072E32C036310005FCBE7 /* Splash.json */,
-				F52072DD2C023EE7005FCBE7 /* wall5.usdz */,
-				F52072E12C0242CB005FCBE7 /* wall4.usdz */,
-				F52072D72C022F34005FCBE7 /* wall3.usdz */,
-				F52072DF2C02421A005FCBE7 /* wall2.usdz */,
-				F52072D52C022A5B005FCBE7 /* wall1.usdz */,
-				F52072CF2C02229D005FCBE7 /* wardrobe5.usdz */,
-				F52072D32C022360005FCBE7 /* wardrobe4.usdz */,
-				F52072CB2C0221F6005FCBE7 /* wardrobe3.usdz */,
-				F52072C92C0221EB005FCBE7 /* wardrobe2.usdz */,
-				F52072D12C0222FB005FCBE7 /* wardrobe1.usdz */,
-				F52072B72C01EE38005FCBE7 /* drawer1.usdz */,
-				F52072BF2C01F727005FCBE7 /* drawer2.usdz */,
-				F52072B92C01F261005FCBE7 /* drawer3.usdz */,
-				F52072BB2C01F26F005FCBE7 /* drawer4.usdz */,
-				F52072C52C0208EC005FCBE7 /* drawer5.usdz */,
-				F52072B32C01E92B005FCBE7 /* table5.usdz */,
-				F52072B52C01EB8E005FCBE7 /* table4.usdz */,
-				F52072A52C01D962005FCBE7 /* table3.usdz */,
-				F52072AD2C01E0A1005FCBE7 /* table2.usdz */,
-				F52072A72C01DC6E005FCBE7 /* table1.usdz */,
-				F52072C12C01F809005FCBE7 /* chair5.usdz */,
-				F52072A12C0078A0005FCBE7 /* chair4.usdz */,
-				F520729D2C006BC2005FCBE7 /* chair3.usdz */,
-				F520729B2C006BBC005FCBE7 /* chair2.usdz */,
-				F5036B202BFBA31A00C2FA22 /* chair1.usdz */,
 				F509D2002BF4B3CD00F19E9D /* Assets.xcassets */,
+				F52072EC2C070C9F005FCBE7 /* 3dModels */,
 				F509D2022BF4B3CD00F19E9D /* Preview Content */,
 			);
 			path = Aike;
@@ -227,6 +200,78 @@
 				F509D2192BF4B3CD00F19E9D /* AikeUITestsLaunchTests.swift */,
 			);
 			path = AikeUITests;
+			sourceTree = "<group>";
+		};
+		F52072EC2C070C9F005FCBE7 /* 3dModels */ = {
+			isa = PBXGroup;
+			children = (
+				F52072F42C085D1A005FCBE7 /* Drawer */,
+				F52072F02C085CF1005FCBE7 /* Chair */,
+				F52072F22C085D0D005FCBE7 /* Table */,
+				F52072F32C085D15005FCBE7 /* Wardrobe */,
+				F52072F52C085D21005FCBE7 /* WallDecoration */,
+			);
+			path = 3dModels;
+			sourceTree = "<group>";
+		};
+		F52072F02C085CF1005FCBE7 /* Chair */ = {
+			isa = PBXGroup;
+			children = (
+				F52072C12C01F809005FCBE7 /* chair5.usdz */,
+				F52072A12C0078A0005FCBE7 /* chair4.usdz */,
+				F520729D2C006BC2005FCBE7 /* chair3.usdz */,
+				F520729B2C006BBC005FCBE7 /* chair2.usdz */,
+				F5036B202BFBA31A00C2FA22 /* chair1.usdz */,
+			);
+			path = Chair;
+			sourceTree = "<group>";
+		};
+		F52072F22C085D0D005FCBE7 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				F52072B32C01E92B005FCBE7 /* table5.usdz */,
+				F52072B52C01EB8E005FCBE7 /* table4.usdz */,
+				F52072A52C01D962005FCBE7 /* table3.usdz */,
+				F52072EF2C070CAF005FCBE7 /* table2.usdz */,
+				F52072A72C01DC6E005FCBE7 /* table1.usdz */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		F52072F32C085D15005FCBE7 /* Wardrobe */ = {
+			isa = PBXGroup;
+			children = (
+				F52072CF2C02229D005FCBE7 /* wardrobe5.usdz */,
+				F52072ED2C070CAE005FCBE7 /* wardrobe4.usdz */,
+				F52072CB2C0221F6005FCBE7 /* wardrobe3.usdz */,
+				F52072C92C0221EB005FCBE7 /* wardrobe2.usdz */,
+				F52072EE2C070CAF005FCBE7 /* wardrobe1.usdz */,
+			);
+			path = Wardrobe;
+			sourceTree = "<group>";
+		};
+		F52072F42C085D1A005FCBE7 /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				F52072B72C01EE38005FCBE7 /* drawer1.usdz */,
+				F52072BF2C01F727005FCBE7 /* drawer2.usdz */,
+				F52072B92C01F261005FCBE7 /* drawer3.usdz */,
+				F52072BB2C01F26F005FCBE7 /* drawer4.usdz */,
+				F52072C52C0208EC005FCBE7 /* drawer5.usdz */,
+			);
+			path = Drawer;
+			sourceTree = "<group>";
+		};
+		F52072F52C085D21005FCBE7 /* WallDecoration */ = {
+			isa = PBXGroup;
+			children = (
+				F52072DD2C023EE7005FCBE7 /* wall5.usdz */,
+				F52072E12C0242CB005FCBE7 /* wall4.usdz */,
+				F52072D72C022F34005FCBE7 /* wall3.usdz */,
+				F52072DF2C02421A005FCBE7 /* wall2.usdz */,
+				F52072D52C022A5B005FCBE7 /* wall1.usdz */,
+			);
+			path = WallDecoration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,12 +388,10 @@
 			files = (
 				F520729C2C006BBC005FCBE7 /* chair2.usdz in Resources */,
 				F509D2042BF4B3CD00F19E9D /* Preview Assets.xcassets in Resources */,
-				F52072D42C022360005FCBE7 /* wardrobe4.usdz in Resources */,
 				F52072DE2C023EE7005FCBE7 /* wall5.usdz in Resources */,
 				F52072A82C01DC6E005FCBE7 /* table1.usdz in Resources */,
 				F52072B42C01E92B005FCBE7 /* table5.usdz in Resources */,
 				F52072BC2C01F26F005FCBE7 /* drawer4.usdz in Resources */,
-				F52072D22C0222FB005FCBE7 /* wardrobe1.usdz in Resources */,
 				F52072CC2C0221F6005FCBE7 /* wardrobe3.usdz in Resources */,
 				F52072C02C01F727005FCBE7 /* drawer2.usdz in Resources */,
 				F52072A62C01D962005FCBE7 /* table3.usdz in Resources */,
@@ -368,7 +411,6 @@
 				F52072E22C0242CB005FCBE7 /* wall4.usdz in Resources */,
 				F52072D02C02229D005FCBE7 /* wardrobe5.usdz in Resources */,
 				F52072BA2C01F261005FCBE7 /* drawer3.usdz in Resources */,
-				F52072AE2C01E0A1005FCBE7 /* table2.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
