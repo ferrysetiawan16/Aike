@@ -28,11 +28,11 @@ struct MenuPage: View {
     ]
     
     let tableItems: [Furniture] = [
-        Furniture(name: "Wooden Chair", description: "A comfortable wooden chair.", imageName: "table1", selectedModel: "table3",price: "Rp 299.000", scale: 0.04, isWallDecoration: false, category: "table"),
-        Furniture(name: "Wooden Chair", description: "A comfortable wooden chair.", imageName: "table2", selectedModel: "table1",price: "Rp 299.000", scale: 0.01, isWallDecoration: false, category: "table"),
-        Furniture(name: "Wooden Chair", description: "A comfortable wooden chair.", imageName: "table3", selectedModel: "table2",price: "Rp 299.000", scale: 0.0025, isWallDecoration: false, category: "table"),
-        Furniture(name: "Wooden Chair", description: "A comfortable wooden chair.", imageName: "table4", selectedModel: "table5", price: "Rp 299.000",scale: 0.0095, isWallDecoration: false, category: "table"),
-        Furniture(name: "Wooden Chair", description: "A comfortable wooden chair.", imageName: "table5", selectedModel: "table4", price: "Rp 299.000",scale: 0.002, isWallDecoration: false, category: "table"),
+        Furniture(name: "Wooden Chair", description: "A comfortable wooden chair.", imageName: "table3", selectedModel: "table3",price: "Rp 299.000", scale: 0.04, isWallDecoration: false, category: "table"),
+        Furniture(name: "Wooden Chair", description: "A comfortable wooden chair.", imageName: "table1", selectedModel: "table1",price: "Rp 299.000", scale: 0.01, isWallDecoration: false, category: "table"),
+        Furniture(name: "Wooden Chair", description: "A comfortable wooden chair.", imageName: "table2", selectedModel: "table2",price: "Rp 299.000", scale: 0.0025, isWallDecoration: false, category: "table"),
+        Furniture(name: "Wooden Chair", description: "A comfortable wooden chair.", imageName: "table5", selectedModel: "table5", price: "Rp 299.000",scale: 0.0095, isWallDecoration: false, category: "table"),
+        Furniture(name: "Wooden Chair", description: "A comfortable wooden chair.", imageName: "table4", selectedModel: "table4", price: "Rp 299.000",scale: 0.002, isWallDecoration: false, category: "table"),
     ]
     
     let drawerItems: [Furniture] = [

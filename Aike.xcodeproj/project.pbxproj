@@ -45,6 +45,7 @@
 		F52072E72C036484005FCBE7 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F52072E62C036484005FCBE7 /* Lottie */; };
 		F52072E92C0365C5005FCBE7 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52072E82C0365C5005FCBE7 /* SplashScreenView.swift */; };
 		F52072EB2C039FD8005FCBE7 /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52072EA2C039FD8005FCBE7 /* CatalogView.swift */; };
+		F5F8EFE02C0AE3AB0066CD63 /* table2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F5F8EFDF2C0AE3AB0066CD63 /* table2.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,7 +108,7 @@
 		F52072EA2C039FD8005FCBE7 /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
 		F52072ED2C070CAE005FCBE7 /* wardrobe4.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wardrobe4.usdz; sourceTree = "<group>"; };
 		F52072EE2C070CAF005FCBE7 /* wardrobe1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wardrobe1.usdz; sourceTree = "<group>"; };
-		F52072EF2C070CAF005FCBE7 /* table2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = table2.usdz; sourceTree = "<group>"; };
+		F5F8EFDF2C0AE3AB0066CD63 /* table2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = table2.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,7 +233,7 @@
 				F52072B32C01E92B005FCBE7 /* table5.usdz */,
 				F52072B52C01EB8E005FCBE7 /* table4.usdz */,
 				F52072A52C01D962005FCBE7 /* table3.usdz */,
-				F52072EF2C070CAF005FCBE7 /* table2.usdz */,
+				F5F8EFDF2C0AE3AB0066CD63 /* table2.usdz */,
 				F52072A72C01DC6E005FCBE7 /* table1.usdz */,
 			);
 			path = Table;
@@ -399,6 +400,7 @@
 				F509D2012BF4B3CD00F19E9D /* Assets.xcassets in Resources */,
 				F52072D62C022A5B005FCBE7 /* wall1.usdz in Resources */,
 				F52072B82C01EE38005FCBE7 /* drawer1.usdz in Resources */,
+				F5F8EFE02C0AE3AB0066CD63 /* table2.usdz in Resources */,
 				F52072CA2C0221EB005FCBE7 /* wardrobe2.usdz in Resources */,
 				F52072B62C01EB8E005FCBE7 /* table4.usdz in Resources */,
 				F52072C22C01F809005FCBE7 /* chair5.usdz in Resources */,
